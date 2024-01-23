@@ -1,0 +1,27 @@
+/* shared styles */
+body{
+    // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: <800>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 800;
+}
+
+}
+
+/*nav related styles*/
+nav{
+    display: flex;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+
+    
+}
