@@ -1,13 +1,17 @@
 /* common shared styles */
-body{
-
-  font-family: "Lato", sans-serif;
-  font-family: "Open Sans", sans-serif;
+body {
+    /* Set font family for the entire document */
+    font-family: "Lato", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-.text-primary{
+
+.text-primary {
+    /* Style for primary text color */
     color: #FD6E0A;
 }
-.btn-primary{
+
+.btn-primary {
+    /* Style for primary button */
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -16,40 +20,100 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 
 /*nav related styles*/
-nav{
+nav {
+    /* Style for navigation container */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-nav>ul{
+
+nav>ul {
+    /* Style for navigation list */
     display: flex;
+    align-items: center;
 }
-nav li{
+
+/* Navigation styles */
+nav li {
+    /* Remove bullet points and add margin right */
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
+    /* Remove underline and set text color */
     text-decoration: none;
     color: #474747;
 }
-.nav-title{
+
+.nav-title {
+    /* Style for the navigation title */
     color: var(--Dark-01, #181818);
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
 
-/* header related styles */
-.header{
-    background-color: #FFF; 
+/* Header styles */
+.header {
+    /* Set background color, image, and position */
+    background-color: #FFF;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    /* Style for the banner section */
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
-    width: 584px;
-    
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-picture {
+    /* Style for the profile picture */
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
 }
